@@ -5,13 +5,13 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SignalClient'
-  s.version          = '0.11.0'
+  s.version          = '1.0.0'
   s.summary          = 'A Swift wrapper library for communicating with the Signal messaging service.'
 
   s.homepage         = 'https://github.com/signalapp/libsignal-client'
   s.license          = 'AGPL-3.0-only'
   s.author           = { 'Jack Lloyd' => 'jack@signal.org', 'Jordan Rose' => 'jrose@signal.org' }
-  s.source           = { :git => 'https://github.com/signalapp/libsignal-client.git', :tag => "swift-#{s.version}" }
+  s.source           = { :git => 'https://github.com/senmdu/SignalClient.git', :tag => s.version.to_s }
 
   s.swift_version    = '5'
   s.platform         = :ios, '10'
