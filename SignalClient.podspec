@@ -75,11 +75,4 @@ Pod::Spec.new do |s|
     CARGO_BUILD_TARGET=x86_64-apple-ios-macabi swift/build_ffi.sh --release --build-std
     CARGO_BUILD_TARGET=aarch64-apple-ios-macabi swift/build_ffi.sh --release --build-std
   )
-
-  s.test_spec 'Tests' do |test_spec|
-    test_spec.source_files = 'swift/Tests/*/*.swift'
-    test_spec.pod_target_xcconfig = {
-      'LIBSIGNAL_FFI_LIB_IF_NEEDED' => '',
-    }
-  end
 end
