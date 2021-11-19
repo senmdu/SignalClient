@@ -9,8 +9,8 @@ This is a binding to the Signal client code in rust/, implemented on top of the 
 
 2. Add 'SignalClient' and 'SignalCoreKit' as dependencies in your Podfile:
 
-        pod 'SignalClient', git: 'https://github.com/signalapp/libsignal-client.git'
-        pod 'SignalCoreKit', git: 'https://github.com/signalapp/SignalCoreKit.git'
+        pod 'SignalClient'
+        pod 'SignalCoreKit'
 
 3. Use `pod install` or `pod update` to build the Rust library for all targets. You may be prompted to install Rust dependencies (`cbindgen`, `rust-src`, `xargo`).
 
